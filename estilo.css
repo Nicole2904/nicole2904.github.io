@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(128, 0, 0);
+}
+
+.portada{
+    width: 100%;
+    height: 300px;
+    background: chocolate;
+    transform: skewY(-5deg);
+}
+
+
+
+.portada .nombre{
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    left: 15%;
+}
+
+.portada .nombre .p1{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    transform: skewY(-5deg);
+
+}
+
+.portada .nombre .p2{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    transform: skewY(-5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.portada .img{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    width: 180px;
+    height: 180px;
+    border-radius: 125%;
+    transform: skewY(-5deg);
+    overflow: hidden;
+}
+
+.portada .img img{
+    width: 180px;
+    height: 180px;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: rgb(210, 105, 30);
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.info .datos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+.info .datos2{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
+
+.info .datos3{
+    color: rgb(15, 4, 4);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size:large;
+    display: inline;
+    
+    
+}
+
+.formacion{
+    width: 90%;
+    height: auto;
+    background: rgb(210, 105, 30);
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.formacion .formacion1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+.formacion .formacion2{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
+
+.formacion .formacion3{
+    color: rgb(15, 4, 4);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size:large;
+    display: inline;
+    
+    
+}
+
