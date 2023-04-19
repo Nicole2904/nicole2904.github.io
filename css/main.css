@@ -1792,11 +1792,12 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-header {
   z-index: 100;
-  height: 7.2rem;
+  height: 5rem;
   width: 100%;
   position: absolute;
   top: 2.8rem;
   left: 0;
+  
 }
 
 /* -------------------------------------------------------------------
@@ -1811,19 +1812,20 @@ input::-moz-focus-inner {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
-  left: 11rem;
+  left: 10rem;
   top: 50%;
+  
 }
 
 .header-logo::before {
   content: "";
   display: block;
-  background-color: rgba(255, 255, 255, 0.5);
   height: 1px;
   width: 9rem;
   position: absolute;
   top: 50%;
   left: -11rem;
+ 
 }
 
 .header-logo a {
@@ -1831,12 +1833,18 @@ input::-moz-focus-inner {
   padding: 0;
   outline: 0;
   border: none;
+
+  
 }
 
-.header-logo img {
-  width: 108px;
-  height: 28px;
+.header-logo1 {
+  color: white;
+  font-size: 30px;
+
+  
 }
+
+
 
 /* -------------------------------------------------------------------
  * ## main navigation
@@ -2057,12 +2065,12 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-hero {
-  width: 100%;
-  height: 100vh;
-  min-height: 82rem;
+  width: 50%;
+  height: 50vh;
+  min-height: 70rem;
   overflow: hidden;
   background-color: transparent;
-  position: relative;
+ 
 }
 
 .s-hero::before {
